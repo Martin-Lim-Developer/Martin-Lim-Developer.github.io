@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="254" height="127.5" viewBox="0 0 254 127.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_823" data-name="Rectangle 823" width="190" height="95" transform="translate(865 982)" fill="#f4f7f6" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_824" data-name="Rectangle 824" width="254" height="127" transform="translate(864.556 981.778)" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_259" data-name="Group 259" transform="translate(-833 -953)">
+    <g id="Mask_Group_33" data-name="Mask Group 33" transform="translate(0 3)" clip-path="url(#clip-path)">
+      <g id="Ellipse_66" data-name="Ellipse 66" transform="translate(865 982)" fill="#f4f7f6" stroke="#fff" stroke-width="1">
+        <circle cx="95" cy="95" r="95" stroke="none"/>
+        <circle cx="95" cy="95" r="94.5" fill="none"/>
+      </g>
+    </g>
+    <line id="Line_113" data-name="Line 113" y2="24" transform="translate(959.5 1056.5)" fill="none" stroke="#f8c700" stroke-width="3"/>
+    <text id="PORTFOLIO" transform="translate(882 1027)" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.2em"><tspan x="14.496" y="19">PORTFOLIO</tspan></text>
+    <g id="Mask_Group_34" data-name="Mask Group 34" transform="translate(-31.556 -28.778)" opacity="0.3" clip-path="url(#clip-path-2)">
+      <g id="Ellipse_67" data-name="Ellipse 67" transform="translate(864.556 981.778)" fill="none" stroke="#fff" stroke-width="1">
+        <ellipse cx="127" cy="126.5" rx="127" ry="126.5" stroke="none"/>
+        <ellipse cx="127" cy="126.5" rx="126.5" ry="126" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

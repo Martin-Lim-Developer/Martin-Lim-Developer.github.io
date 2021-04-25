@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <g id="Group_211" data-name="Group 211" transform="translate(-729 -481)">
+    <path id="heart-solid" d="M15.668,33.006a4.638,4.638,0,0,0-6.329.461l-.668.688L8,33.467a4.638,4.638,0,0,0-6.329-.461,4.87,4.87,0,0,0-.336,7.051L7.9,46.833a1.063,1.063,0,0,0,1.536,0L16,40.057a4.867,4.867,0,0,0-.332-7.051Z" transform="translate(735.488 457.441)" fill="#f8c700"/>
+    <g id="Ellipse_75" data-name="Ellipse 75" transform="translate(729 481)" fill="none" stroke="#f8c700" stroke-width="2">
+      <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+      <circle cx="15.5" cy="15.5" r="14.5" fill="none"/>
+    </g>
+  </g>
+</svg>

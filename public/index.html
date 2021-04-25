@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../public/style.css">
+</head>
+<body class="relative">
+  <!-- FOUC bug for firefox -->
+  <script>0</script> 
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="bg-black min-w-screen min-h-screen z-50 flex flex-col justify-center items-center">
+    <h1 class="font-orbitron text-white text-4xl">- PREAPARING SPACESUIT -</h1>
+    <div class="lds-facebook"><div></div><div></div><div></div></div>
+  </div>
+  <!-- fixed scrollspy indicator -->
+  <div id="fixed-scrollspy-indicator" class="fixed bottom-0 left-0 flex justify-center items-center z-30 hidden lg:flex">
+    <span id="section-number-indicator" class="text-4xl leading-none font-orbitron text-accent">01</span><span class="text-sm">/05</span>
+  </div>
+  <!-- section 1 start -->
+  <section id="section-1" class="px-6 lg:px-0 bg-black">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-12 min-h-screen relative">
+        <!-- Scroll to portfolio indicator -->
+        <div class="w-full absolute text-center hidden lg:flex justify-center" style="bottom: -1px">
+          <a href="#section-2">
+            <img src="../public/img/svg/section-1-scroll-indicator.svg" width="175px" alt="">
+          </a>
+        </div>
+        <!-- content -->
+        <div class="col-span-12 lg:col-span-4 text-white ">
+          <div class="grid grid-cols-12 flex h-full lg:py-32">
+            <div class="col-span-12 lg:text-right mb-8 lg:mb-0 ">
+              <h2 class="font-orbitron text-sm font-light flex items-center text-right">
+                <div class="bg-white" style="width: 60%;height: 2px;"></div>
+                <img src="../public/img/svg/section-indicator/section-indicator-01-dark.svg" alt="section-indicator-01" class="px-2">
+                <span class="text-6xl leading-none">01</span><span class="text-xl self-end">/05</span>
+              </h2>
+              <h2 class="font-orbitron text-sm font-light">GREETINGS FELLOW TRAVELLER, <BR> MY NAME IS</h2>
+              <h1 class="font-orbitron text-6xl font-bold leading-none text-accent">MARTIN <br> <span class="text-outline-accent">LIM</span></h1>
+            </div>
+            <div class="col-span-12 lg:text-right self-end">
+              <h1 class="font-orbitron text-4xl font-bold leading-none">FRONT-END DEVELOPER</h1>
+              <p class="font-light">I make use of modern web technologies to create things from websites to mobile apps from the design phase right through towards deployment.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-4 flex justify-center items-center">
+          <img src="../public/img/hero-img/section-1-hero.png" alt="section-1-hero-image" class="w-full md:w-2/4 lg:w-full">
+        </div>
+        <div class="col-span-12 lg:col-span-4">
+          <div class="grid grid-cols-12 flex h-full lg:py-32">
+            <!-- navbar -->
+            <div class="col-span-12 mb-8 lg:mb-0">
+              <div class="grid grid-cols-12">
+                <div class="col-span-6 text-white">
+                  <div class="grid grid-cols-12 h-full">
+                    <div class="col-span-2 text-center"><img src="../public/img/svg/section-indicator/section-indicator-02-dark.svg" alt="section-indicator-02" class="pr-1"> <p class="font-orbitron">02</p></div>
+                    <div class="col-span-10"><a href="#section-2" class="duration-300 hover:text-accent"><h2 class="text-xl font-orbitron">PROJECTS</h2></a><p class="text-sm">Check out my work</p></div>
+                  </div>
+                </div>
+                <div class="col-span-6 text-white">
+                  <div class="grid grid-cols-12 h-full">
+                    <div class="col-span-2 text-center"><img src="../public/img/svg/section-indicator/section-indicator-03-dark.svg" alt="section-indicator-02" class="pr-1"> <p class="font-orbitron">03</p></div>
+                    <div class="col-span-10"><a href="#section-3.1" class="duration-300 hover:text-accent"><h2 class="text-xl font-orbitron">SKILLS</h2></a><p class="text-sm">The toolbelt I carry</p></div>
+                  </div>
+                </div>
+                <div class="col-span-6 text-white mt-5">
+                  <div class="grid grid-cols-12 h-full">
+                    <div class="col-span-2 text-center"><img src="../public/img/svg/section-indicator/section-indicator-04-dark.svg" alt="section-indicator-02" class="pr-1"> <p class="font-orbitron">04</p></div>
+                    <div class="col-span-10"><a href="#section-4" class="duration-300 hover:text-accent"><h2 class="text-xl font-orbitron">ABOUT ME</h2></a><p class="text-sm">The man inside the suit</p></div>
+                  </div>
+                </div>
+                <div class="col-span-6 text-white mt-5">
+                  <div class="grid grid-cols-12 h-full">
+                    <div class="col-span-2 text-center"><img src="../public/img/svg/section-indicator/section-indicator-05-dark.svg" alt="section-indicator-02" class="pr-1"> <p class="font-orbitron">05</p></div>
+                    <div class="col-span-10"><a href="#section-5" class="duration-300 hover:text-accent"><h2 class="text-xl font-orbitron">GET IN TOUCH</h2></a><p class="text-sm">Establish connection</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-12 lg:text-right self-end">
+              <div class="grid grid-cols-12">
+                <div class="col-span-10 text-white">
+                  <p class="text-sm font-light">
+                    Through pure fate or just a series of coincidence governed by mathematical probabilities, we somehow meet each other. I welcome you to my portfolio.
+                    <br>
+                    <br>
+                    Despite our differences, we are both governed by the same force, that is, the will to create, the desire to always improve and get better at what we do. 
+                    <br>
+                    <br>
+                    Perhaps, You and I may not so be different after all.  
+                    <br>
+                  </p>
+                </div>
+                <div class="col-span-2 text-white font-orbitron flex items-center">
+                  <p class="font-bold sideway-text text-xl border-r-2 border-white px-2">LIVE TO <span class="text-accent">CREATE</span></p>
+                </div>s
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 1 end -->
+
+  <!-- section 2 start -->
+  <section id="section-2" class="px-6">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-12 min-h-screen relative">
+        <div class="col-span-12 lg:col-span-6">
+          <div class="grid grid-cols-12 flex h-full py-8 lg:py-24">
+            <div class="col-span-12 py-8 lg:pr-32">
+              <h2 class="font-orbitron font-light flex items-center text-right">
+                <img src="../public/img/svg/section-indicator/section-indicator-02-light.svg" alt="section-indicator-01" class="px-2" width="50px">
+                <span class="text-4xl leading-none">02</span><span class="text-xl self-end"></span>
+              </h2>
+              <br>
+              <h2 class="font-orbitron text-sm font-light">A COLLECTION OF</h2>
+              <h1 class="font-orbitron text-4xl lg:text-6xl font-bold leading-none"><span class="text-accent">PROJECTS</span><br>SHOWCASE</h1>
+              <p class="font-light mt-2">
+                These are some projects I've worked on / currently working at. Note that there are a couple of projects I've done which I can't show due to confidential agreements.
+                Yes I know it is not much as I am new to the scene. But I hope my portfolio would grow as I continue to learn and explore.
+              </p>
+            </div>
+            <div class="col-span-12 lg:pr-32">
+              <img src="../public/img/hero-img/section-2-hero.png" alt="section-2-hero-image" class="w-full lg:w-4/5">
+            </div>
+          </div>
+        </div>
+        <!-- projects -->
+        <div class="col-span-12 lg:col-span-6 lg:pl-8 md:pb-8">
+          <div class="grid grid-cols-12 flex h-full lg:py-24">
+            <!-- project 1 -->
+            <div class="col-span-12 md:col-span-6 mb-8 md:mb-0">
+              <div class="h-16 pb-4">
+                <h2 class="font-orbitron text-sm font-light px-2">Project 1:</h2>
+                <h1 class="font-orbitron text-2xl font-bold leading-none px-2">HUNGRY MATES</h1>
+              </div>
+              <img src="../public/img/project-1-revamp.svg" alt="project-1-image">
+              <h3 class="font-semibold px-2">DESCRIPTION</h3>
+              <p class="font-light px-2 text-sm">
+                A small team project to create a web application using Google Place's API to help users decide where to eat based on their current location. This is an app for those who has trouble deciding a place to go.
+                <br>
+                <br>
+                The app will use the user's current geo location and set radius to grab 3 random restaurants (preferences can be set). If the user still can't decide, then the app can further pick one out of the 3 results.
+              </p>
+              <br>
+              <h3 class="font-semibold px-2">TECHNOLOGY USED</h3>
+              <p class="font-light px-2 text-sm">
+                #ReactJS #Ant-Design #Google-API
+              </p>
+              <br>
+              <a class="bg-gray-400 rounded-full shadow text-md text-white px-6 py-2 block text-center font-orbitron">COMING SOON</a>
+            </div>
+            <!-- project 2 -->
+            <div class="col-span-12 md:col-span-6 flex flex-col mb-8 md:mb-0">
+              <div class="flex-grow">
+                <div class="h-16 pb-4">
+                  <h2 class="font-orbitron text-sm font-light px-2">Project 2:</h2>
+                  <h1 class="font-orbitron text-2xl font-bold leading-none px-2">UNICOM</h1>
+                </div>
+                <img src="../public/img/project-2.svg" alt="">
+                <h3 class="font-semibold px-2">DESCRIPTION</h3>
+                <p class="font-light px-2 text-sm">
+                  Company website & CMS development
+                  <br>
+                  Front-End developer and web designer as part of a team for the creation of a website and a custom-made CMS for an Australian based telecommunication company using the power of Angular. 
+                </p>
+                <br>
+                <h3 class="font-semibold px-2">TECHNOLOGY USED</h3>
+                <p class="font-light px-2 text-sm">
+                  #ReactJS #Ant-Design #Google-API
+                </p>
+              </div>
+              <br>
+              <div class="px-2">
+                <a href="" class="bg-black rounded-full shadow text-md text-white px-6 py-2 block text-center font-orbitron duration-300 hover:bg-accent mt-2">VISIT SITE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 2 end -->
+
+  <!-- section 3 start -->
+  <section id="section-3.1" class="px-6 pb-16 lg:pb-0 bg-black text-white">
+    <!-- section 3.1 -->
+    <div class="grid grid-cols-10 flex px-6 ">
+      <div class="col-span-10 lg:col-span-2 py-16 hidden lg:flex">
+        <div class="bg-white self-center" style="width: 200px; height: 2.5px;"></div>
+      </div>
+      <div class="col-span-10 lg:col-span-8 pt-8 lg:py-16 lg:pr-6">
+        <div class="font-light mt-8">
+          <h1 class="text-4xl font-bold leading-none font-orbitron">TWO SIDES <br> OF THE <br> SAME PLANET</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto flex justify-center py-8">
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-span-4 text-right font-light lg:pr-8">
+          <div>
+            <img src="../public/img/svg/design-heading.svg" alt="">
+            <br>
+            <p>
+              I value design that acts as a means of expression. Good design should represents the clients core identity, be it representing the professionalism of a big company, or showcasing the character of an aspiring artist.  
+            </p>
+            <br>
+            <p>
+              I enjoy thoughtful and aesthetically pleasing design for a myriad of use cases, from mobile apps to web and desktop UIs.
+            </p>
+            <br>
+            <p>
+              I use tools like Adobe Illustrator and Adobe XD to present my designs from wireframes, to mock-up prototypes before finally developing them.
+              It is crucial to nail the concepts and identity of the app prior development. 
+            </p>
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-4 flex justify-center">
+          <div class="w-3/4 md:w-2/4 lg:w-full">
+            <img src="../public/img/hero-img/section-3.1-hero.png" alt="section-3.1-hero-image" class="">
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-4 font-light lg:pl-8">
+          <div>
+            <img src="../public/img/svg/development-heading.svg" alt="">
+            <br>
+            <p>
+              Development is where the magic happens and ideas are turned into working products. This is my main area of focus and I am always striving to be better with each project I've done.
+            </p>
+            <br>
+            <p>
+              I like to explore different tools and technologies from web frameworks like Angular and ReactJS to mobile frameworks like Flutter. I believe this helps me develop an array of tools
+              that I can assess and use accrodingly to best fit the current project at hand.
+            </p>
+            <br>
+            <p>
+              I value clean code and maintainability. It is such a tricky thing to achieve especially if the project is massive, nevertheless I always try my best to write good code.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 3.2 -->
+    <div class="grid grid-cols-10 flex px-8">
+      <div class="col-span-10 lg:col-span-8 pt-8 lg:py-16 lg:pr-6">
+        <div class="font-light mt-8 lg:text-right">
+          <h1 class="text-4xl font-bold leading-none font-orbitron">THE MODULUES <br> INSIDE MY <br> SPACESUIT</h1>
+        </div>
+      </div>
+      <div class="col-span-10 lg:col-span-2 py-16 hidden lg:flex">
+        <div class="bg-white self-center" style="width: 200px; height: 2.5px;"></div>
+      </div>
+    </div>
+    <div class="container mx-auto flex justify-center">
+      <div class="grid grid-cols-12 min-h-screen">
+        <div class="col-span-12 mt-4 lg:mt-0 lg:col-span-6 flex justify-center items-center">
+          <div class="w-2/4 lg:w-3/4">
+            <img src="../public/img/hero-img/section-3.2-hero.png" alt="section-3.2-hero-image">
+          </div>
+        </div>
+        <!-- projects -->
+        <div class="col-span-12 lg:col-span-6">
+          <!-- developmet modules -->
+          <h2 class="font-orbitron text-sm font-light text-center lg:text-left">+ <span class="text-accent">[DEV]</span>elopment modules</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 place-content-center place-items-center">
+            <!-- dev module 1 -->
+            <div class="section-3-2-modules p-4 font-orbitron">
+              <h2 class="my-4"><span class="font-bold">DEV.M</span> <span class="text-accent text-2xl font-light">01</span></h2>
+              <ul>
+                <!-- HTML -->
+                <li>
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/html-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">HTML</div>
+                  </div>
+                </li>  
+                <!-- CSS -->
+                <li class="mt-3">
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/css-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">CSS</div>
+                  </div>
+                </li>  
+              </ul>
+              <br>
+              <p>+ TAILWIND</p>
+              <p>+ BOOTSTRAP</p>
+            </div>
+            <!-- dev module 2 -->
+            <div class="section-3-2-modules p-4 font-orbitron">
+              <h2 class="my-4"><span class="font-bold">DEV.M</span> <span class="text-accent text-2xl font-light">02</span></h2>
+              <ul>
+                <!-- javascript -->
+                <li>
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/javascript-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">JAVASCRIPT</div>
+                  </div>
+                </li>
+                <!-- react -->
+                <li class="mt-3">
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/react-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">REACT</div>
+                  </div>
+                </li>
+                <!-- angular -->
+                <li class="mt-3">
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/angular-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">ANGULAR</div>
+                  </div>
+                </li>
+              </ul>
+              <br>
+            </div>
+          </div>
+          <br>
+          <!-- design modules -->
+          <h2 class="font-orbitron text-sm font-light text-center lg:text-left">+ <span class="text-accent">[DES]</span>ign modules</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 place-content-center place-items-center">
+            <!-- des module 1 -->
+            <div class="section-3-2-modules p-4 font-orbitron">
+              <h2 class="my-4"><span class="font-bold">DES.M</span> <span class="text-accent text-2xl font-light">01</span></h2>
+              <ul>
+                <!-- ILLUSTRATOR -->
+                <li>
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/adobe-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">ILLUSTRATOR</div>
+                  </div>
+                </li>  
+                <!-- XD -->
+                <li class="mt-3">
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/adobe-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">XD</div>
+                  </div>
+                </li>  
+              </ul>
+            </div>
+            <!-- des module 2 -->
+            <div class="section-3-2-modules p-4 font-orbitron">
+              <h2 class="my-4"><span class="font-bold">DES.M</span> <span class="text-accent text-2xl font-light">02</span></h2>
+              <ul>
+                <!-- UI/UX -->
+                <li>
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/ui-ux-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">UI & UX DESIGN</div>
+                  </div>
+                </li>
+                <!-- responsive design -->
+                <li class="mt-3">
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/responsive-design-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">RESPONSIVE DESIGN</div>
+                  </div>
+                </li>
+                <!-- wireframe/prototyping -->
+                <li class="mt-3">
+                  <div class="grid grid-cols-3 flex items-center">
+                    <div class="col-span-1"><img src="../public/img/svg/module-icons/wireframe-prototyping-icon.svg" width="50px" alt="html-icon" class="inline-block"></div> 
+                    <div class="col-span-2">WIREFRAME/ PROTOTYPING</div>
+                  </div>
+                </li>
+              </ul>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 3 end -->
+
+  <!-- section 4 start -->
+  <section id="section-4" class="px-6 pb-16 lg:pb-0 py-16 xl:py-0">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-12 min-h-screen">
+        <div class="col-span-12 lg:col-span-7 flex items-center lg:pl-4">
+          <div class="grid grid-cols-12"> 
+            <div class="col-span-12 pt-8 lg:pt-0">
+              <div class="flex">
+                <h2 class="font-orbitron font-light flex flex-col justify-center">
+                  <img src="../public/img/svg/section-indicator/section-indicator-04-light.svg" alt="section-indicator-04" class="px-2" width="60px">
+                  <span class="text-4xl leading-none">04</span><span class="text-xl self-end"></span>
+                </h2>
+                <div class="ml-4">
+                  <h2 class="font-orbitron text-xl font-light">A LITTLE BIT</h2>
+                  <h1 class="font-orbitron text-4xl lg:text-6xl font-bold leading-none"><span class="text-accent">ABOUT</span> ME</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-12 lg:col-span-6 mt-4">
+              <img src="../public/img/svg/about-me-icons/who-am-i-icon.svg" alt="about-me-icon" class="inline-block mr-2"><span class="font-orbitron">WHO AM I</span>
+              <p class="font-light pl-10">
+                You can call me an explorer. I am always inspired by so many things. 
+                I obtain my dopamine through the feeling of excitement of succesfully learning new things from learning new languages,to travelling and playing music.
+              </p>
+              <br>
+              <p class="font-light pl-10">
+                I am a recent graduate of computer science after transitioning from my engineering degree. I feel software development fuels that need for me to be able to make things no matter how small it may be.
+              </p>
+            </div>
+            <div class="col-span-12 lg:col-span-6 mt-4">
+              <!-- education -->
+              <img src="../public/img/svg/about-me-icons/education-icon.svg" alt="about-me-icon" class="inline-block mr-2"><span class="font-orbitron">EDUCATION</span>
+              <p class="font-light pl-10">
+                Swinburne University of Technology
+                <br>
+                (Diploma of Engineering)
+                <br>
+                <br>
+                Swinburne University of Technology
+                <br>
+                (Computer Science - Software Development)
+              </p>
+              <br>
+              <!-- interest -->
+              <img src="../public/img/svg/about-me-icons/interest-icon.svg" alt="about-me-icon" class="inline-block mr-2"><span class="font-orbitron">INTEREST</span>
+              <ul class="font-light pl-10">
+                <li>- Learning Languages</li>
+                <li>- Playing and composing music</li>
+                <li>- Cool technologies and gadgets</li>
+                <li>- Travelling to new places</li>
+              </ul>
+            </div>
+            <div class="col-span-12 mt-4">
+              <hr>
+              <br>
+              <div class="grid grid-cols-12 flex items-center justify-center">
+                <div class="col-span-2">
+                  <img src="../public/img/svg/about-me-icons/heartbeat-icon.svg" alt="heartbeat-icon" width="100px" class="animate-pulse">
+                </div>
+                <div class="col-span-8">
+                  <div class="text-xs font-light">
+                    <h3 class="font-bold">DID YOU KNOW?</h3>
+                    <p>
+                      There are only approximately 3,363,840,000 heartbeats in a lifetime, with our heart beating  ~115,200 times per day. Knowing that the very thing that is keeping us alive is numbered do put things into perspective.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-5 flex items-center justify-center order-first md:order-last">
+          <img src="../public/img/hero-img/section-4-hero.png" alt="section-4-hero-image" class="w-3/4 md:w-2/4 lg:w-4/5 py-8 md:py-0">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 4 end -->
+
+  <!-- section 5 start -->
+  <section id="section-5" class="px-6 lg:px-0 min-h-screen">
+    <div id="contact-form" class="lg:mx-32 min-h-screen">
+      <div class="grid grid-cols-12 text-white">
+        <!-- contact form left -->
+        <div class="col-span-12 lg:col-span-6 pl-6 lg:pl-24 py-16">
+          <div class="grid grid-cols-12">
+            <div class="col-span-12">
+              <div class="flex">
+                <h2 class="font-orbitron font-light flex flex-col justify-center">
+                  <img src="../public/img/svg/section-indicator/section-indicator-04-light.svg" alt="section-indicator-04" class="px-2" width="60px">
+                  <span class="text-4xl leading-none">05</span><span class="text-xl self-end"></span>
+                </h2>
+                <div class="ml-4">
+                  <h2 class="font-orbitron text-xl font-light">DON'T HESITATE TO</h2>
+                  <h1 class="font-orbitron text-4xl font-bold leading-none">GET<span class="text-accent"> IN TOUCH</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-12 mt-8">
+              <p>
+                Want to work together with me or perhaps you just want to say Hi? 
+                <br>
+                <br>
+                Simply contact me via this e-mail below:
+                <br>
+                <span class="font-bold text-xl">martin@martinlim.technology</span>
+                <br>
+                <br>
+                <!-- Or
+                <br>
+                <br>
+                you can also use the contact form to send me a message. -->
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- contact form right -->
+        <div class="col-span-12 lg:col-span-6 px-24 py-16">
+          <p class="text-white font-orbitron">I AM CURRENTLY:</p>
+          <p class="font-orbitron text-accent inline-block mt-2 font-bold"><img src="../public/img/svg/availability-icons/check-icon.svg" alt="check-icon" class="inline-block"> AVAILABLE FOR WORK</p>
+          <!-- <p class="font-orbitron text-accent inline-block mt-2"><img src="../public/img/svg/availability-icons/cross-icon.svg" alt="check-icon" class="inline-block"> NOT AVAILABLE FOR WORK</p> -->
+          <!-- <div class="mb-4">
+            <label class="block text-sm font-bold mb-1" for="username">
+              NAME
+            </label>
+            <input class="border-solid border-white border-b-4 bg-transparent w-full py-2 px-3 leading-tight text-white focus:text-black focus:bg-white duration-300 placeholder-white" id="username" type="text" placeholder="Username">
+          </div>
+          <div class="mb-4 mt-8">
+            <label class="block text-sm font-bold mb-1" for="email">
+              EMAIL
+            </label>
+            <input class="border-solid border-white border-b-4 bg-transparent w-full py-2 px-3 leading-tight text-white focus:text-black focus:bg-white duration-300 placeholder-white" id="email" type="email" placeholder="Email">
+          </div>
+          <div class="mb-4 mt-8">
+            <label class="block text-sm font-bold mb-1" for="message">
+              YOUR MESSAGE
+            </label>
+            <textarea class="border-solid border-white border-b-4 bg-transparent w-full py-2 px-3 leading-tight text-white focus:text-black focus:bg-white duration-300 placeholder-white" id="message" row="4" col="50" placeholder="Enter your message here"></textarea>
+          </div>
+          <button class="shadow bg-black hover:bg-accent text-white font-bold py-2 px-4 mt-8 rounded w-full font-orbitron duration-300" type="button">
+            SEND MESSAGE
+          </button> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 5 end -->
+  <script>
+    window.addEventListener("load", function() {
+      const loader = document.querySelector("#loading-screen");
+      loader.className += " hidden";
+    });
+    document.addEventListener('DOMContentLoaded', function() { 
+      const sections = document.querySelectorAll("section");
+      
+      const sectionMargin = 200;
+      
+      let currentActive = 0;
+
+      window.addEventListener("scroll", () => {
+        const current = sections.length - [...sections].reverse().findIndex((section) => window.scrollY >= section.offsetTop - sectionMargin );
+        document.getElementById("section-number-indicator").innerHTML = "0" + current;
+        if(current == 2) 
+          document.get
+      });
+    }, false);
+  </script>
+</body>
+</html>

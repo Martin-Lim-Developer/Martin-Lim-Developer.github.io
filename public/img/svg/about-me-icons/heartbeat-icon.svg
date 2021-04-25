@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="178" viewBox="0 0 178 178">
+  <g id="Group_214" data-name="Group 214" transform="translate(-705 -707)">
+    <path id="heartbeat-solid" d="M49.078,64.429l-7.62,15.239a2.451,2.451,0,0,1-4.431-.092L28.3,60.213,23.7,71.205H9.278L37.258,99.8a2.732,2.732,0,0,0,3.94,0L69.192,71.205H52.466l-3.388-6.776ZM72.611,38.381,72.243,38a20.084,20.084,0,0,0-28.731,0l-4.277,4.385-4.277-4.369a20.057,20.057,0,0,0-28.731,0l-.368.368A21.051,21.051,0,0,0,4.74,66.3h15.7l5.5-13.215a2.458,2.458,0,0,1,4.507-.061l8.923,19.823,7.512-15.009a2.45,2.45,0,0,1,4.385,0L55.5,66.3H73.73a21.05,21.05,0,0,0-1.119-27.918Z" transform="translate(755.015 730.05)" fill="#f8c700"/>
+    <g id="Ellipse_76" data-name="Ellipse 76" transform="translate(732 734)" fill="none" stroke="#f8c700" stroke-width="8">
+      <circle cx="62" cy="62" r="62" stroke="none"/>
+      <circle cx="62" cy="62" r="58" fill="none"/>
+    </g>
+    <g id="Ellipse_77" data-name="Ellipse 77" transform="translate(720 722)" fill="none" stroke="#f8c700" stroke-width="6" opacity="0.67">
+      <circle cx="74" cy="74" r="74" stroke="none"/>
+      <circle cx="74" cy="74" r="71" fill="none"/>
+    </g>
+    <g id="Ellipse_78" data-name="Ellipse 78" transform="translate(711 713)" fill="none" stroke="#f8c700" stroke-width="4" opacity="0.12">
+      <circle cx="83" cy="83" r="83" stroke="none"/>
+      <circle cx="83" cy="83" r="81" fill="none"/>
+    </g>
+    <g id="Ellipse_79" data-name="Ellipse 79" transform="translate(705 707)" fill="none" stroke="#f8c700" stroke-width="2" opacity="0.08">
+      <circle cx="89" cy="89" r="89" stroke="none"/>
+      <circle cx="89" cy="89" r="88" fill="none"/>
+    </g>
+  </g>
+</svg>
